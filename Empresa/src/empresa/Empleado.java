@@ -50,7 +50,7 @@ public class Empleado implements Comparable<Empleado>{
 	public void setDatos() {
 		dni=Util.introducirCadena("Introduce DNI del empleado");
 		nombre=Util.introducirCadena("Introduce nombre del empleado");
-		apellido=Util.introducirCadena("Introduce apellido del empleado");
+		apellido=Util.introducirCadena("Introduce apellido del puto empleado");
 		numSorteo=(int)(Math.random()*100)+1;
 		DateTimeFormatter formato=DateTimeFormatter.ofPattern("dd-MM-yyyy");
 		boolean error=false;
